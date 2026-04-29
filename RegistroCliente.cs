@@ -1,10 +1,11 @@
 public class RegistroClientes
 {
     private NodoCliente cabeza;
+    private int contadorClientes = 1;
 
     public void AgregarCliente(int cedula, string nombre, string apellido, int numCuenta, int saldo)
     {
-        NodoCliente nuevoCliente = new NodoCliente(cedula, nombre, apellido, numCuenta, saldo);
+        NodoCliente nuevoCliente = new NodoCliente(contadorClientes++,cedula, nombre, apellido, numCuenta, saldo);
 
         if (cabeza == null)
         {
@@ -19,6 +20,6 @@ public class RegistroClientes
             }
             actual.Siguiente = nuevoCliente;
         }
-        Console.WriteLine("Cliente agregado exitosamente.");
+        Console.WriteLine("Cliente agregado exitosamente. ID: " + nuevoCliente.Id);
     }
 }
