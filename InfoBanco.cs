@@ -11,18 +11,4 @@ public void MostrarClientes()
         Console.WriteLine("Clientes registrados: {RegistroCliente()} ");
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
