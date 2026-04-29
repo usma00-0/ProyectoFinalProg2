@@ -1,10 +1,14 @@
 public class InfoBanco
 {
- private NodoCliente cabeza;
- public void InfoBanco(int cedula, string nombre, int numCuenta)
+    public void MostrarInformacion()
     {
-        
-
+        Console.WriteLine("Informacion General del Banco");
+        Console.WriteLine("Clientes registrados : {RegistroCliente} ");
+        Console.WriteLine("Dienero Total : {RegistroCuenta} ");
+    }
+public void MostrarClientes()
+    {
+        Console.WriteLine("Clientes registrados: {RegistroCliente()} ");
     }
 
 
