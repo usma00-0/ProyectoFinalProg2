@@ -29,4 +29,37 @@ public class ListaEnlazadaClientes
         Console.WriteLine("Cliente agregado exitosamente");
         return true;
     }
+
+    public NodoCliente BuscarClientePorCedula(int cedula)
+    {
+        NodoCliente actual = cabeza;
+        while(actual != null)
+        {
+            if(actual.Cedula == cedula) return actual;
+            actual = actual.Siguiente;
+        }
+        return null;
+    }
+
+    public NodoCliente BuscarClientePorCuenta(int numCuenta)
+    {
+        NodoCliente actual = cabeza;
+        while(actual != null)
+        {
+            if(actual.NumCuenta == numCuenta) return actual;
+            actual = actual.Siguiente;
+        }
+        return null;
+    }
+
+    public void MostrarTodos()
+    {
+        NodoCliente actual = cabeza;
+        if(actual == null) Console.WriteLine("No hay clientes registrados");
+        while(actual != null)
+        {
+            Console.WriteLine($"Cédula: {actual.Cedula}, Nombre: {actual.Nombre} {actual.Apellido}, Cuenta: {actual.NumCuenta}, Saldo: {actual.Saldo}");
+            actual = actual.Siguiente;
+        }
+    }
 }
