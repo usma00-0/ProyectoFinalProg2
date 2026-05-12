@@ -62,4 +62,28 @@ public class ListaEnlazadaClientes
             actual = actual.Siguiente;
         }
     }
+
+    public int ContarClientes()
+    {
+        int contador = 0;
+        NodoCliente actual = cabeza;
+        while(actual != null)
+        {
+            contador++;
+            actual = actual.Siguiente;
+        }
+        return contador;
+    }
+
+    public int CalcularDineroTotal()
+    {
+        int total = 0;
+        NodoCliente actual = cabeza;
+        while(actual != null)
+        {
+            total += actual.Saldo;
+            actual = actual.Siguiente;
+        }
+        return total;
+    }
 }
