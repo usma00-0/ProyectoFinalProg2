@@ -15,7 +15,7 @@ public class Banco
         }
         else
         {
-            Console
+            Console.WriteLine("Cuenta no encontrada.");
         }
     }
 
