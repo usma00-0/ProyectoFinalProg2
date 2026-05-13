@@ -10,7 +10,7 @@ public class Banco
         if(cliente != null)
         {
             cliente.Saldo += monto;
-            Historial.Apilar(new Transaccion("Depósito", numCuenta, monto)); //Guaardar en pila
+            Historial.Apilar(new Transaccion("Deposito", numCuenta, monto)); //Guaardar en pila
             Console.WriteLine($"Deposito exitoso. Nuevo saldo: {cliente.Saldo}");
         }
         else
