@@ -1,4 +1,4 @@
-class Program
+﻿class Program
 {
     static void Main()
     {
@@ -52,7 +52,7 @@ class Program
                 break;
                 case 4:
                 Console.Write("Ingrese cédula del cliente para encolar: ");
-                miBanco.Clientes.Encolar(int.Parse(Console.ReadLine()));
+                miBanco.Fila.Encolar(int.Parse(Console.ReadLine()));
                 break;
                 case 5:
                 int cedulaAtendida = miBanco.Fila.Desencolar();

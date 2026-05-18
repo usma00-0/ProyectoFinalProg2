@@ -4,7 +4,6 @@ public class ListaEnlazadaClientes
 
     public bool AgregarCliente(int cedula, string nombre, string apellido, int numCuenta, int saldo)
     {
-        [cite_start]//No permite duplicados
         if(BuscarClientePorCedula(cedula) != null || BuscarClientePorCuenta(numCuenta) != null)
         {
             Console.WriteLine("Ya existe un cliente con esa cédula o número de cuenta");

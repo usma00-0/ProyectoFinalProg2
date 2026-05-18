@@ -24,7 +24,7 @@ public class Banco
         NodoCliente cliente = Clientes.BuscarClientePorCuenta(numCuenta);
         if(cliente != null)
         {
-            [cite_start]if(cliente.Saldo >= monto)//Verificar saldo
+            if(cliente.Saldo >= monto)
             {
                 cliente.Saldo -= monto;
                 Historial.Apilar(new Transaccion("Retiro", numCuenta, monto));//Guardar en pila

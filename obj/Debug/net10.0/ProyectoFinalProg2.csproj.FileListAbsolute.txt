@@ -1,0 +1,15 @@
+C:\Users\jausm\OneDrive\Escritorio\ProyectoFinalProg2\obj\Debug\net10.0\ProyectoFinalProg2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jausm\OneDrive\Escritorio\ProyectoFinalProg2\obj\Debug\net10.0\ProyectoFinalProg2.AssemblyInfoInputs.cache
+C:\Users\jausm\OneDrive\Escritorio\ProyectoFinalProg2\obj\Debug\net10.0\ProyectoFinalProg2.AssemblyInfo.cs
+C:\Users\jausm\OneDrive\Escritorio\ProyectoFinalProg2\obj\Debug\net10.0\ProyectoFinalProg2.csproj.CoreCompileInputs.cache
+C:\Users\jausm\OneDrive\Escritorio\ProyectoFinalProg2\obj\Debug\net10.0\ProyectoFinalProg2.sourcelink.json
+C:\Users\jausm\OneDrive\Escritorio\ProyectoFinalProg2\bin\Debug\net10.0\ProyectoFinalProg2.exe
+C:\Users\jausm\OneDrive\Escritorio\ProyectoFinalProg2\bin\Debug\net10.0\ProyectoFinalProg2.deps.json
+C:\Users\jausm\OneDrive\Escritorio\ProyectoFinalProg2\bin\Debug\net10.0\ProyectoFinalProg2.runtimeconfig.json
+C:\Users\jausm\OneDrive\Escritorio\ProyectoFinalProg2\bin\Debug\net10.0\ProyectoFinalProg2.dll
+C:\Users\jausm\OneDrive\Escritorio\ProyectoFinalProg2\bin\Debug\net10.0\ProyectoFinalProg2.pdb
+C:\Users\jausm\OneDrive\Escritorio\ProyectoFinalProg2\obj\Debug\net10.0\ProyectoFinalProg2.dll
+C:\Users\jausm\OneDrive\Escritorio\ProyectoFinalProg2\obj\Debug\net10.0\refint\ProyectoFinalProg2.dll
+C:\Users\jausm\OneDrive\Escritorio\ProyectoFinalProg2\obj\Debug\net10.0\ProyectoFinalProg2.pdb
+C:\Users\jausm\OneDrive\Escritorio\ProyectoFinalProg2\obj\Debug\net10.0\ProyectoFinalProg2.genruntimeconfig.cache
+C:\Users\jausm\OneDrive\Escritorio\ProyectoFinalProg2\obj\Debug\net10.0\ref\ProyectoFinalProg2.dll
