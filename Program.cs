@@ -40,10 +40,11 @@
                 break;
                 case 3:
                 Console.Write("Ingrese cédula a buscar: ");
-                NodoCliente c = miBanco.Clientes.BuscarClientePorCedula(int.Parse(Console.ReadLine()));
+                int cedulaBuscar = int.Parse(Console.ReadLine());
+                NodoCliente c = miBanco.Clientes.BuscarClientePorCedula(cedulaBuscar);
                 if(c != null)
                     {
-                        Console.WriteLine($"Encontrado: {c.Nombre} {c.Apellido}, Cuenta: {c.NumCuenta}");
+                        Console.WriteLine($"Encontrado: {c.Nombre} {c.Apellido}, Cuenta: {c.NumCuenta}, Saldo: {c.Saldo}");
                     }
                     else
                     {
@@ -52,7 +53,8 @@
                 break;
                 case 4:
                 Console.Write("Ingrese cédula del cliente para encolar: ");
-                miBanco.Fila.Encolar(int.Parse(Console.ReadLine()));
+                int cedulaEncolar = int.Parse(Console.ReadLine());
+                miBanco.Fila.Encolar(cedulaEncolar);
                 break;
                 case 5:
                 int cedulaAtendida = miBanco.Fila.Desencolar();
@@ -80,7 +82,7 @@
                 NodoCliente clienteConsulta = miBanco.Clientes.BuscarClientePorCuenta(int.Parse(Console.ReadLine()));
                 if(clienteConsulta != null)
                     {
-                        Console.WriteLine($"Saldo dactual: {clienteConsulta.Saldo}");
+                        Console.WriteLine($"Saldo actual: {clienteConsulta.Saldo}");
                     }
                     else
                     {
