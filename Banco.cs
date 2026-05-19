@@ -6,6 +6,11 @@ public class Banco
 
     public void RealizarDeposito(int numCuenta, int monto)
     {
+        if(monto <= 0)
+        {
+            Console.WriteLine("El monto debe ser mayor a cero.");
+            return;
+        }
         NodoCliente cliente = Clientes.BuscarClientePorCuenta(numCuenta);
         if(cliente != null)
         {
@@ -21,6 +26,11 @@ public class Banco
 
     public void RealizarRetiro(int numCuenta, int monto)
     {
+        if(monto <= 0)
+        {
+            Console.WriteLine("El monto debe ser mayor a cero.");
+            return;
+        }
         NodoCliente cliente = Clientes.BuscarClientePorCuenta(numCuenta);
         if(cliente != null)
         {
